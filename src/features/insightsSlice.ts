@@ -26,7 +26,7 @@ export const fetchInsights = createAsyncThunk<Insight[], { query: string; cards:
       prompt: `User Query: "${query}"
 User Cards: ${JSON.stringify(cards)}
 
-Which card gives the best rewards?`,
+Which card gives the best rewards? Provide a concise answer (max 3 sentences).`,
       max_tokens: 150,
     }, {
       headers: { 'Authorization': `Bearer YOUR_GOOSE_AI_API_KEY` }

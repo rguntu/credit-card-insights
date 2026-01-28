@@ -1,0 +1,6 @@
+[
+  { "id": "chase-sapphire-preferred", "name": "Chase Sapphire Preferred", "issuer": "Chase", "network": "Visa" },
+  { "id": "amex-gold", "name": "American Express Gold Card", "issuer": "Amex", "network": "Amex" },
+  { "id": "citi-double-cash", "name": "Citi Double Cash Card", "issuer": "Citi", "network": "Mastercard" },
+  { "id": "capital-one-venture-x", "name": "Capital One Venture X", "issuer": "Capital One", "network": "Visa" }
+]
